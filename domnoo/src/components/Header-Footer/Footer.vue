@@ -2,10 +2,10 @@
     <footer>
         <div class="container">
             <div>
-                <img :src="logoIcon" alt="">
+                <img :src="logoIcon"/>
                 <div class="contact">
-                    <div>Call Us</div>
-                    <div>0612543620</div>
+                    <div>Vizo </div>
+                    <div>011 pizza 22</div>
                 </div>
             </div>
         </div>
@@ -13,13 +13,14 @@
 </template>
 
 <script>
-    import Logo from '../../assets/images/logo.png'
+    import Logo from '../../assets/images/logo.png';
 
     export default {
-        data() {
-            return{
-                logoIcon: Logo,
+        data(){
+            return {
+                logoIcon: Logo 
             }
         }
     }
+
 </script>
